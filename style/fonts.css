@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Poppins;
+  font-weight: 400;
+  src: url("../fonts/Poppins-Regular.woff2");
+}
+
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  src: url("../fonts/Poppins-Bold.woff2");
+}
+
+@font-face {
+  font-family: Jost;
+  font-weight: 400;
+  src: url("../fonts/Jost-Regular.woff2");
+}
+
+@font-face {
+  font-family: Jost;
+  font-weight: 700;
+  src: url("../fonts/Jost-Bold.woff2");
+}
+
+:root {
+  --main-family: Poppins, sans-serif;
+  --footer-family: Jost, sans-serif;
+
+  /* Sizes */
+  --logo-size: 48px;
+  --menu-item-size: 30px;
+  --subtitle-size: 30px;
+  --title-size: 48px;
+  --text-size: 24px;
+  --contact-title-size: 64px;
+  --form-size: 32px;
+  --footer-size: 31px;
+}

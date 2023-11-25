@@ -1,0 +1,30 @@
+.about-me {
+  padding-block: 74px;
+  margin-bottom: 227px;
+}
+
+.about-me__wrapper {
+  --background-size: 925px;
+
+  height: var(--background-size);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../img/about-me.png");
+  background-size: var(--background-size);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.about-me__container {
+  width: 415px;
+}
+
+.about-me__title {
+  letter-spacing: 16.8px;
+  margin-bottom: 14px;
+}
+
+.about-me__text {
+  margin-bottom: 26px;
+}

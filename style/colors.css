@@ -1,0 +1,16 @@
+:root {
+  --blue: #2000E7;
+  --dark-blue: #0E0578;
+  --soft-blue: rgba(67, 186, 253, 0.06);
+
+  --grey: #383838;
+  --light-grey: #686565;
+  --soft-grey: rgba(32, 0, 231, 0.04);
+  
+  --yellow: #F2BD00;
+  --soft-yellow: rgba(255, 214, 150, 0.20);
+
+  --pink: #F965FC;
+  --white: #FFF;
+  --black: #000;
+}

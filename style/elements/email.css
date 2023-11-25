@@ -1,0 +1,39 @@
+.email {
+  position: relative;
+}
+
+.email__input {
+  width: 323px;
+  padding: 24px 33px;
+  padding-right: 94px;
+  background: var(--black);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+
+  color: var(--white);
+  font-size: var(--footer-size);
+  font-weight: bold;
+  font-family: var(--footer-family);
+}
+
+.email__input::placeholder {
+  color: var(--white);
+}
+
+.email__submit {
+  cursor: pointer;
+  background: var(--pink);
+  padding: 24px 17px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+
+  color: var(--white);
+  font-size: var(--footer-size);
+  font-weight: bold;
+  font-family: var(--footer-family);
+
+  position: absolute;
+  left: 262px;
+}

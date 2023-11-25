@@ -1,0 +1,86 @@
+.footer {
+  font-family: var(--footer-family);
+  font-size: var(--footer-size);
+  background: var(--soft-yellow);
+  padding: 132px 0 50px;
+}
+
+.footer__row--first {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr) 1.3fr;
+  gap: 88px;
+}
+
+.footer__logo-wrapper {
+  margin-bottom: 50px;
+}
+
+.footer__logo {
+  letter-spacing: 16.8px;
+}
+
+.footer__email {
+  left: -60px;
+}
+
+.footer__column > *:not(:last-child) {
+  margin-bottom: var(--footer-size);
+}
+
+.footer__subtitle {
+  font-weight: bold;
+}
+
+.footer__hr {
+  height: 3px;
+  background: var(--black);
+  margin-inline: auto;
+  margin-block: 88px;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icons {
+  --icon-size: 76px;
+
+  height: var(--icon-size);
+}
+
+.footer__icons > * {
+  display: inline-block;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  overflow: hidden;
+}
+
+.footer__icons > *:not(:last-child) {
+  margin-right: 50px;
+}
+
+.footer__icons svg {
+  position: relative;
+}
+
+.footer__icon--youtube {
+  top: 22px;
+  left: 1px;
+}
+
+.footer__icon--instagram {
+  top: 16px;
+  left: 16px;
+}
+
+.footer__icon--facebook {
+  top: 19px;
+  left: 27px;
+}
+
+.footer__icon--linkedin {
+  top: 18px;
+  left: 18px;
+}

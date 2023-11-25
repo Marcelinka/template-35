@@ -1,0 +1,16 @@
+.header {
+  padding-block: 45px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  color: var(--light-grey);
+  font-size: var(--menu-item-size);
+  display: flex;
+  gap: 72px;
+}

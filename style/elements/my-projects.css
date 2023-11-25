@@ -1,0 +1,22 @@
+.my-projects {
+  margin-bottom: 272px;
+  background: var(--soft-yellow);
+  padding-top: 35px;
+  padding-bottom: 65px;
+  text-align: center;
+}
+
+.my-projects__title {
+  letter-spacing: 9.6px;
+}
+
+.my-projects__text {
+  margin-bottom: 46px;
+}
+
+.my-projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 186px;
+  row-gap: 46px;
+}

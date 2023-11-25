@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniDesign</title>
+
+  <link rel="stylesheet" href="style/colors.css">
+  <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" href="style/main.css">
+
+  <link rel="stylesheet" href="style/elements/header.css">
+  <link rel="stylesheet" href="style/elements/footer.css">
+  <link rel="stylesheet" href="style/elements/email.css">
+  <link rel="stylesheet" href="style/elements/intro.css">
+  <link rel="stylesheet" href="style/elements/about-me.css">
+  <link rel="stylesheet" href="style/elements/my-projects.css">
+  <link rel="stylesheet" href="style/elements/contact.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrapper">
+      <div>
+        <a href="#" class="logo">UniDesign</a>
+      </div>
+
+      <nav class="header__menu">
+        <a href="#">About Me</a>
+        <a href="#">Projects</a>
+        <a href="#">Contacts</a>
+        <a href="#">Hire Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="intro">
+      <div class="container intro__wrapper">
+        <div>
+          <div class="intro__subtitle">Welcome To My PortFolio</div>
+          <h1 class="title intro__title">
+            Hi , I am Steven <br />
+            UI/UX <span class="intro__highlight">Desginer</span>
+          </h1>
+          <p class="intro__text">
+            Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit
+          </p>
+          <div>
+            <button class="button intro__button--first">Hire Me</button>
+            <button class="button button_white">My Project</button>
+          </div>
+        </div>
+        
+        <img src="img/intro.png" alt="Profile picture" class="intro__img">
+      </div>
+    </div>
+
+    <section class="about-me">
+      <div class="container about-me__wrapper">
+        <div class="about-me__container">
+          <h2 class="title about-me__title">About Me</h2>
+          <p class="about-me__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .
+          </p>
+          <button class="button">Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-projects">
+      <div class="container">
+        <h2 class="title my-projects__title">My Projects</h2>
+        <p class="my-projects__text">
+          Lorem Ipsum is simply dummy text of the printing
+        </p>
+
+        <div class="my-projects__grid">
+          <img src="img/project-1.png" alt="Project 1">
+          <img src="img/project-2.png" alt="Project 2">
+          <img src="img/project-1.png" alt="Project 3">
+          <img src="img/project-3.png" alt="Project 4">
+          <img src="img/project-3.png" alt="Project 5">
+          <img src="img/project-3.png" alt="Project 6">
+          <img src="img/project-4.png" alt="Project 7">
+          <img src="img/project-4.png" alt="Project 8">
+          <img src="img/project-4.png" alt="Project 9">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container contact__wrapper">
+        <h2 class="title contact__title">Contact Me</h2>
+        <p class="contact__text">Lorem Ipsum is simply dummy text of the printing</p>
+
+        <form class="contact__form">
+          <input class="contact__control" type="text" placeholder="Email">
+          <input class="contact__control" type="text" placeholder="Password">
+          <textarea class="contact__control" placeholder="Message.."></textarea>
+          <button type="submit" class="contact__button">
+            Contact
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row--first">
+        <div>
+          <div class="footer__logo-wrapper">
+            <a href="#" class="logo footer__logo">UniDesign</a>
+          </div>
+
+          <form class="email footer__email">
+            <input type="text" placeholder="Email" class="email__input" />
+            <button type="submit" class="email__submit">Subscribe</button>
+          </form>
+        </div>
+
+        <nav class="footer__column">
+          <div class="footer__subtitle">Platform</div>
+
+          <div><a href="#">Home</a></div>
+          <div><a href="#">Overview</a></div>
+          <div><a href="#">Pricing</a></div>
+          <div><a href="#">About</a></div>
+        </nav>
+
+        <nav class="footer__column">
+          <div class="footer__subtitle">Help</div>
+
+          <div><a href="#">How it works?</a></div>
+          <div><a href="#">Pay?</a></div>
+          <div><a href="#">Question?</a></div>
+          <div><a href="#">Contact?</a></div>
+        </nav>
+
+        <div class="footer__column">
+          <div class="footer__subtitle">Contact</div>
+
+          <div>
+            <a href="tel:+00012346789">(+000) 1234-6789</a>
+          </div>
+          <div>
+            116 Archlor Road Broadlaband, NewYork (NYC) 1205
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__hr"></div>
+
+      <div class="footer__copyright">
+        <div>
+          CopyRighted 2020-2023 All Rights Reserved.
+        </div>
+
+        <div class="footer__icons">
+          <!-- Youtube -->
+          <a href="#">
+            <svg class="footer__icon--youtube" xmlns="http://www.w3.org/2000/svg" width="72" height="78" fill="none">
+              <path fill="#FF3000" d="M56.026 5.097a5.155 5.155 0 0 0-3.63-3.64C49.195.6 36.36.6 36.36.6s-12.83 0-16.035.858a5.155 5.155 0 0 0-3.63 3.639C15.841 8.304 15.841 15 15.841 15s0 6.696.855 9.903a5.155 5.155 0 0 0 3.63 3.64c3.206.857 16.035.857 16.035.857s12.835 0 16.035-.857a5.154 5.154 0 0 0 3.63-3.64c.855-3.207.855-9.903.855-9.903s0-6.696-.855-9.903Z"/>
+              <path fill="#fff" d="M32.26 21.172 42.923 15 32.261 8.828v12.345Z"/>
+            </svg>
+          </a>
+          
+          <!-- Instagram -->
+          <a href="#">
+            <svg class="footer__icon--instagram" xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="none">
+              <path fill="url(#a)" d="M14.081 21a6.919 6.919 0 0 1 6.92-6.918A6.92 6.92 0 0 1 27.923 21a6.92 6.92 0 0 1-6.922 6.918A6.919 6.919 0 0 1 14.081 21Zm-3.741 0c0 5.885 4.773 10.655 10.661 10.655 5.889 0 10.662-4.77 10.662-10.655S26.89 10.345 21.001 10.345c-5.888 0-10.661 4.77-10.661 10.655ZM29.594 9.922a2.49 2.49 0 0 0 2.976 2.444 2.492 2.492 0 0 0 1.818-3.395 2.49 2.49 0 0 0-2.302-1.538 2.494 2.494 0 0 0-2.492 2.49ZM12.613 37.891c-2.024-.092-3.125-.43-3.856-.714-.97-.377-1.661-.826-2.388-1.552-.727-.726-1.178-1.416-1.553-2.385-.285-.73-.623-1.83-.715-3.854-.1-2.187-.12-2.844-.12-8.386 0-5.541.021-6.197.12-8.386.093-2.023.432-3.12.715-3.853.377-.97.827-1.66 1.553-2.387.726-.727 1.417-1.177 2.388-1.552.731-.285 1.832-.622 3.856-.714 2.189-.1 2.846-.12 8.388-.12 5.543 0 6.2.02 8.391.12 2.025.092 3.123.432 3.856.714.97.375 1.661.826 2.389 1.552.727.726 1.175 1.418 1.553 2.387.285.73.622 1.83.714 3.853.1 2.19.12 2.845.12 8.386 0 5.542-.02 6.197-.12 8.386-.092 2.023-.431 3.123-.714 3.854-.378.968-.827 1.66-1.553 2.385-.727.725-1.42 1.175-2.389 1.552-.73.285-1.831.622-3.856.714-2.188.1-2.846.12-8.39.12-5.545 0-6.201-.02-8.39-.12ZM12.44.375c-2.21.1-3.72.45-5.04.964a10.185 10.185 0 0 0-3.678 2.393c-1.156 1.153-1.865 2.31-2.395 3.676-.513 1.32-.864 2.828-.964 5.037C.26 14.657.238 15.365.238 21s.023 6.343.126 8.555c.1 2.21.45 3.718.964 5.037.53 1.364 1.24 2.523 2.395 3.676a10.21 10.21 0 0 0 3.678 2.393c1.322.514 2.83.864 5.04.964 2.215.101 2.922.126 8.56.126 5.64 0 6.347-.023 8.56-.126 2.211-.1 3.72-.45 5.04-.964a10.21 10.21 0 0 0 3.679-2.393c1.155-1.153 1.863-2.312 2.395-3.676.513-1.319.865-2.828.964-5.037.1-2.214.124-2.92.124-8.555s-.023-6.343-.124-8.555c-.1-2.21-.451-3.719-.964-5.037a10.205 10.205 0 0 0-2.395-3.676c-1.154-1.155-2.313-1.864-3.677-2.393-1.321-.513-2.83-.865-5.04-.964-2.213-.1-2.921-.126-8.56-.126-5.639 0-6.347.023-8.562.126Z"/>
+              <path fill="url(#b)" d="M14.081 21a6.919 6.919 0 0 1 6.92-6.918A6.92 6.92 0 0 1 27.923 21a6.92 6.92 0 0 1-6.922 6.918A6.919 6.919 0 0 1 14.081 21Zm-3.741 0c0 5.885 4.773 10.655 10.661 10.655 5.889 0 10.662-4.77 10.662-10.655S26.89 10.345 21.001 10.345c-5.888 0-10.661 4.77-10.661 10.655ZM29.594 9.922a2.49 2.49 0 0 0 2.976 2.444 2.492 2.492 0 0 0 1.818-3.395 2.49 2.49 0 0 0-2.302-1.538 2.494 2.494 0 0 0-2.492 2.49ZM12.613 37.891c-2.024-.092-3.125-.43-3.856-.714-.97-.377-1.661-.826-2.388-1.552-.727-.726-1.178-1.416-1.553-2.385-.285-.73-.623-1.83-.715-3.854-.1-2.187-.12-2.844-.12-8.386 0-5.541.021-6.197.12-8.386.093-2.023.432-3.12.715-3.853.377-.97.827-1.66 1.553-2.387.726-.727 1.417-1.177 2.388-1.552.731-.285 1.832-.622 3.856-.714 2.189-.1 2.846-.12 8.388-.12 5.543 0 6.2.02 8.391.12 2.025.092 3.123.432 3.856.714.97.375 1.661.826 2.389 1.552.727.726 1.175 1.418 1.553 2.387.285.73.622 1.83.714 3.853.1 2.19.12 2.845.12 8.386 0 5.542-.02 6.197-.12 8.386-.092 2.023-.431 3.123-.714 3.854-.378.968-.827 1.66-1.553 2.385-.727.725-1.42 1.175-2.389 1.552-.73.285-1.831.622-3.856.714-2.188.1-2.846.12-8.39.12-5.545 0-6.201-.02-8.39-.12ZM12.44.375c-2.21.1-3.72.45-5.04.964a10.185 10.185 0 0 0-3.678 2.393c-1.156 1.153-1.865 2.31-2.395 3.676-.513 1.32-.864 2.828-.964 5.037C.26 14.657.238 15.365.238 21s.023 6.343.126 8.555c.1 2.21.45 3.718.964 5.037.53 1.364 1.24 2.523 2.395 3.676a10.21 10.21 0 0 0 3.678 2.393c1.322.514 2.83.864 5.04.964 2.215.101 2.922.126 8.56.126 5.64 0 6.347-.023 8.56-.126 2.211-.1 3.72-.45 5.04-.964a10.21 10.21 0 0 0 3.679-2.393c1.155-1.153 1.863-2.312 2.395-3.676.513-1.319.865-2.828.964-5.037.1-2.214.124-2.92.124-8.555s-.023-6.343-.124-8.555c-.1-2.21-.451-3.719-.964-5.037a10.205 10.205 0 0 0-2.395-3.676c-1.154-1.155-2.313-1.864-3.677-2.393-1.321-.513-2.83-.865-5.04-.964-2.213-.1-2.921-.126-8.56-.126-5.639 0-6.347.023-8.562.126Z"/>
+              <defs>
+                <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(54.2099 0 0 54.1774 5.755 41.947)" gradientUnits="userSpaceOnUse">
+                  <stop offset=".09" stop-color="#FA8F21"/>
+                  <stop offset=".78" stop-color="#D82D7E"/>
+                </radialGradient>
+                <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(42.7249 0 0 42.6993 25.422 43.806)" gradientUnits="userSpaceOnUse">
+                  <stop offset=".64" stop-color="#8C3AAA" stop-opacity="0"/>
+                  <stop offset="1" stop-color="#8C3AAA"/>
+                </radialGradient>
+              </defs>
+            </svg>
+          </a>
+
+          <!-- Facebook -->
+          <a href="#">
+            <svg class="footer__icon--facebook" xmlns="http://www.w3.org/2000/svg" width="19" height="35" fill="none">
+              <path fill="#337FFF" d="m17.572 19.655.983-6.24H12.5V9.357c0-1.707.846-3.374 3.55-3.374h2.791V.669A33.87 33.87 0 0 0 13.925.25c-4.984 0-8.239 2.994-8.239 8.406v4.758H.161v6.241h5.525V34.75H12.5V19.655h5.073Z"/>
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="#">
+            <svg class="footer__icon--linkedin" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none">
+              <path fill="#069" d="M.284 3.063C.284 1.53 1.568.284 3.151.284h33.06c1.584 0 2.868 1.245 2.868 2.78V36.3c0 1.535-1.284 2.78-2.867 2.78H3.152C1.567 39.08.283 37.834.283 36.3V3.063Z"/>
+              <path fill="#fff" d="M12.073 32.75V15.286H6.268v17.466h5.806ZM9.172 12.9c2.024 0 3.284-1.34 3.284-3.016-.038-1.715-1.26-3.018-3.246-3.018-1.987 0-3.284 1.303-3.284 3.018 0 1.676 1.26 3.017 3.208 3.017h.037Zm6.114 19.85h5.805v-9.752c0-.521.038-1.044.191-1.416.42-1.044 1.375-2.123 2.98-2.123 2.1 0 2.94 1.601 2.94 3.95v9.342h5.805V22.737c0-5.365-2.864-7.861-6.683-7.861-3.132 0-4.507 1.75-5.27 2.942h.038v-2.532h-5.805c.075 1.638 0 17.465 0 17.465Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

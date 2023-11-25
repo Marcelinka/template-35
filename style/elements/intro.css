@@ -1,0 +1,39 @@
+.intro {
+  padding-top: 156px;
+  padding-bottom: 74px;
+}
+
+.intro__wrapper {
+  display: flex;
+  gap: 70px;
+  align-items: flex-start;
+}
+
+.intro__subtitle {
+  color: var(--blue);
+  font-size: var(--subtitle-size);
+  margin-bottom: 5px;
+}
+
+.intro__title {
+  margin-bottom: 21px;
+}
+
+.intro__highlight {
+  color: var(--yellow);
+}
+
+.intro__text {
+  margin-bottom: 135px;
+  color: var(--grey);
+}
+
+.intro__button--first {
+  margin-right: 79px;
+}
+
+.intro__img {
+  width: 600px;
+  position: relative;
+  right: -36px;
+}
